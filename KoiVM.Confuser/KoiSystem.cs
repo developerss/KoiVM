@@ -45,7 +45,7 @@ namespace KoiVM.Confuser {
 #if DEBUG || __TRACE
 				const string PACK_URI = @"http://ki.no-ip.info/koi/{0}/koi.pack";
 #else
-				const string PACK_URI = @"https://ki-host.appspot.com/KoiVM/koi/{0}/koi.pack";
+				const string PACK_URI = @"https://ki-host.appspot.com/KoiVM/koi/{0}/koi.pack";////
 #endif
 				var pack = new Uri(string.Format(PACK_URI, koiId));
 				WebClient client = new WebClient();
